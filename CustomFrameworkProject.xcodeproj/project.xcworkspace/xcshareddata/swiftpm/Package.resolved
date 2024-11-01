@@ -1,0 +1,15 @@
+{
+  "originHash" : "484af2193b10dfa16a291f3c63f5fc03a0bced464f12829732c5676717959e80",
+  "pins" : [
+    {
+      "identity" : "customframeworknuevo",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/martintarres/CustomFrameworkNuevo.git",
+      "state" : {
+        "revision" : "a9ad4d93cd2c8a6e98c46f53cf3cc7b45d94cf0e",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

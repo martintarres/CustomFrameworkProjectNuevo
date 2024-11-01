@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B55C34112CD543FB00D850EF /* CustomFramework in Frameworks */ = {isa = PBXBuildFile; productRef = B55C34102CD543FB00D850EF /* CustomFramework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B55C33F02CD53E8500D850EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55C34112CD543FB00D850EF /* CustomFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = CustomFrameworkProject;
 			packageProductDependencies = (
+				B55C34102CD543FB00D850EF /* CustomFramework */,
 			);
 			productName = CustomFrameworkProject;
 			productReference = B55C33DF2CD53E8400D850EF /* CustomFrameworkProject.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = B55C33D62CD53E8400D850EF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B55C340F2CD543FB00D850EF /* XCRemoteSwiftPackageReference "CustomFrameworkNuevo" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B55C33E02CD53E8400D850EF /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B55C340F2CD543FB00D850EF /* XCRemoteSwiftPackageReference "CustomFrameworkNuevo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/martintarres/CustomFrameworkNuevo.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B55C34102CD543FB00D850EF /* CustomFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B55C340F2CD543FB00D850EF /* XCRemoteSwiftPackageReference "CustomFrameworkNuevo" */;
+			productName = CustomFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B55C33D72CD53E8400D850EF /* Project object */;
 }
